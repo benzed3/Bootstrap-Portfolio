@@ -43,10 +43,11 @@
             border-bottom-style: solid;
             border-bottom-color: lightgray;
             border-bottom-width: 5px;
+            height: 95px;
         }
 
         #main {
-            height: 350px;
+            height: 400px;
             background: white;
             border-style: solid;
             border-color: lightgray;
@@ -63,9 +64,17 @@
             border-top-width: 8px;
         }
 
+        #bar {
+            border-style: solid;
+            border-width: 0 0 2px 0;
+            border-bottom-color: lightgray;
+            margin: 0 10px 0 10px;
+
+        }
+
         #name2 {
             color: #4aaaa5;
-            margin: 30px 0 0 10px;
+            margin: 30px 0 15px 2px;
             font-family: 'Georgia', Times, Times New Roman, serif;
             font-size: 2em;
         }
@@ -77,6 +86,36 @@
         p {
             margin-left: 10px;
         }
+
+        #b3 {
+            float: left;
+            width: 33%;
+        }
+
+        #b2 {
+            float: left;
+            width: 33%;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: lightgray;
+            padding: 0 45px 0 15px;
+            text-align: center;
+        }
+
+        #b1 {
+            float: left;
+            width: 33%;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: lightgray;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .form-inline {
+            position: relative;
+            right: 260px;
+        }
     </style>
 </head>
 
@@ -85,9 +124,9 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand" id="name"><strong>Edward Benitez</strong></a>
             <form class="form-inline">
-                <button>About</button>
-                <button>Portfolio</button>
-                <button>Contact</button>
+                <button id="b1">About</button>
+                <button id="b2">Portfolio</button>
+                <button id="b3">Contact</button>
             </form>
         </nav>
     </div>
@@ -105,15 +144,19 @@
             </div>
 
             <div class="col-lg-10" id="main">
-                <h1 id="name2">About Me</h1>
+                <div id="bar">
+                    <h1 id="name2">About Me</h1>
+                </div>
                 <br>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/300px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
                     style="width:200px;height:123px;">
                 <br><br>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto inventore doloremque obcaecati
-                    qui
-                    iste iure ab enim. Corrupti exercitationem ducimus, incidunt ipsum nam sit accusamus quaerat, non
-                    culpa alias adipisci.</p>
+                <p id="text">Hi. I currently work for the airlines and having been there for a while I am looking for a
+                    carreer
+                    change. I
+                    have recenty been looking at web design, and it appears to be a very lucrative bussiness. Not only
+                    that, it
+                    will allow me to express my creative side.</p>
             </div>
 
             <div class="col-lg-1">

@@ -46,7 +46,7 @@
         }
 
         #main {
-            height: 450px;
+            height: 460px;
             background: white;
             border-style: solid;
             border-color: lightgray;
@@ -65,7 +65,7 @@
 
         #name2 {
             color: #4aaaa5;
-            margin: 30px 0 0 10px;
+            margin: 30px 0 15px 10px;
             font-family: 'Georgia', Times, Times New Roman, serif;
             font-size: 2em;
         }
@@ -81,6 +81,47 @@
             margin: 0 10px 0 10px;
             color: gray;
         }
+        #b3 {
+            float: left;
+            width: 33%;
+        }
+
+        #b2 {
+            float: left;
+            width: 33%;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: lightgray;
+            padding: 0 45px 0 15px;
+            text-align: center;
+        }
+
+        #b1 {
+            float: left;
+            width: 33%;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: lightgray;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .form-inline {
+            position: relative;
+            right: 260px;
+        }
+
+        #bar {
+            border-style: solid;
+            border-width: 0 0 2px 0;
+            border-bottom-color: lightgray;
+            margin: 0 10px 0 10px;
+
+        }
+        #in1 {
+            padding-top: 12px;
+
+        }
     </style>
 </head>
 
@@ -89,9 +130,9 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand" id="name"><strong>Edward Benitez</strong></a>
             <form class="form-inline">
-                <button>About</button>
-                <button>Portfolio</button>
-                <button>Contact</button>
+                <button id="b1">About</button>
+                <button id="b2">Portfolio</button>
+                <button id="b3">Contact</button>
             </form>
         </nav>
     </div>
@@ -109,10 +150,13 @@
             </div>
 
             <div class="col-lg-10" id="main">
-                <h1 id="name2">Contact</h1>
+
+                <div id="bar">
+                    <h1 id="name2">Contact</h1>
+                </div>
 
                 <form id="text">
-                    <div class="form-group">
+                    <div class="form-group" id="in1">
                         <label for="exampleInputEmail1">Name</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="John Smith">
