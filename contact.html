@@ -5,139 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <title>My Website</title>
-    <style>
-        body {
-            background: rgb(223, 217, 210);
-        }
-
-        #name {
-            color: white;
-            background: #4aaaa5;
-            font-family: 'Georgia', Times, Times New Roman, serif;
-            width: 300px;
-            margin: 0 0 0 0;
-            position: relative;
-            left: 280px;
-            text-align: center;
-            padding: 13px 5px 13px 5px;
-            font-size: 2em;
-        }
-
-        .form-inline {
-            position: relative;
-            right: 290px;
-        }
-
-        button {
-            font-family: 'Georgia', Times, Times New Roman, serif;
-            color: gray;
-            border: none;
-            background-color: rgb(250, 249, 249);
-            padding: 10px
-        }
-
-        #navbar {
-            border-bottom-style: solid;
-            border-bottom-color: lightgray;
-            border-bottom-width: 5px;
-        }
-
-        #main {
-            height: 460px;
-            background: white;
-            border-style: solid;
-            border-color: lightgray;
-        }
-
-        #foot {
-            background: gray;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            padding-top: 90px;
-            border-top-style: solid;
-            border-top-color: #4aaaa5;
-            border-top-width: 8px;
-        }
-
-        #name2 {
-            color: #4aaaa5;
-            margin: 30px 0 15px 10px;
-            font-family: 'Georgia', Times, Times New Roman, serif;
-            font-size: 2em;
-        }
-
-        img {
-            margin-left: 10px;
-        }
-
-        p {
-            margin-left: 10px;
-        }
-        #text {
-            margin: 0 10px 0 10px;
-            color: gray;
-        }
-        #b3 {
-            float: left;
-            width: 33%;
-        }
-
-        #b2 {
-            float: left;
-            width: 33%;
-            border-right-style: solid;
-            border-right-width: 1px;
-            border-right-color: lightgray;
-            padding: 0 45px 0 15px;
-            text-align: center;
-        }
-
-        #b1 {
-            float: left;
-            width: 33%;
-            border-right-style: solid;
-            border-right-width: 1px;
-            border-right-color: lightgray;
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-
-        .form-inline {
-            position: relative;
-            right: 260px;
-        }
-
-        #bar {
-            border-style: solid;
-            border-width: 0 0 2px 0;
-            border-bottom-color: lightgray;
-            margin: 0 10px 0 10px;
-
-        }
-        #in1 {
-            padding-top: 12px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+    <title>My Portfolio</title>
 </head>
 
 <body>
+
     <div id="navbar">
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand" id="name"><strong>Edward Benitez</strong></a>
             <form class="form-inline">
                 <button id="b1">
-                    <a href="file:///C:/Users/benze/Bootstrap-Portfolio/index.html" style=color:gray;>About</a>
+                    <a href="index.html" style=color:gray;>About</a>
                 </button>
                 <button id="b2">
-                    <a href="file:///C:/Users/benze/Bootstrap-Portfolio/portfolio.html" style=color:gray;>Portfolio</a>
+                    <a href="portfolio.html" style=color:gray;>Portfolio</a>
                 </button>
                 <button id="b3">
-                    <a href="file:///C:/Users/benze/Bootstrap-Portfolio/contact.html" style=color:gray;>Contact</a>
+                    <a href="contact.html" style=color:gray;>Contact</a>
                 </button>
             </form>
         </nav>
@@ -161,23 +50,6 @@
                     <h1 id="name2">Contact</h1>
                 </div>
 
-                <form id="text">
-                    <div class="form-group" id="in1">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="John Smith">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-info">Submit</button>
-                </form>
-
             </div>
             <div class="col-lg-1">
 
@@ -196,11 +68,14 @@
         </div>
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 </body>
 

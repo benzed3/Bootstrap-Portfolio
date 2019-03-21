@@ -1,0 +1,112 @@
+body {
+    background: rgb(223, 217, 210);
+}
+
+#name {
+    color: white;
+    background: #4aaaa5;
+    font-family: "Lilita One", cursive;
+    width: 300px;
+    margin: 0 0 0 0;
+    position: relative;
+    left: 295px;
+    text-align: center;
+    padding: 13px 5px 13px 5px;
+    font-size: 2em;
+}
+
+.form-inline {
+    position: relative;
+    right: 290px;
+}
+
+button {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: gray;
+    border: none;
+    background-color: rgb(250, 249, 249);
+    padding: 10px
+}
+
+.navbar {
+    padding: 0;
+}
+
+#navbar {
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 5px;
+}
+
+#main {
+    height: 450px;
+    background: white;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 20px;
+}
+
+#foot {
+    background: gray;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 90px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+}
+
+#bar {
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-bottom-color: lightgray;
+    margin: 0 10px 0 10px;
+}
+
+
+#name2 {
+    color: #4aaaa5;
+    margin: 30px 0 15px 2px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2em;
+}
+
+p {
+    margin-left: 10px;
+}
+
+#text {
+    margin: 0 10px 0 10px;
+    color: gray;
+}
+
+#b3 {
+    float: left;
+    width: 33%;
+}
+
+#b2 {
+    float: left;
+    width: 33%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
+    padding: 0 45px 0 15px;
+    text-align: center;
+}
+
+#b1 {
+    float: left;
+    width: 33%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.form-inline {
+    position: relative;
+    right: 260px;
+}
