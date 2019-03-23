@@ -1,5 +1,7 @@
 body {
-    background: rgb(223, 217, 210);
+    background-image: url(../../images/chessboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #name {
@@ -44,6 +46,19 @@ button {
     border-style: solid;
     border-color: lightgray;
     border-radius: 20px;
+    background: rgb(223, 217, 210);
+}
+
+#title {
+    font-family: "Baloo Chettan", cursive;
+    color: #2eb6af;
+    padding-left: 10px;
+}
+
+#text {
+    font-family: "Baloo Chettan", cursive;
+    color: rgb(112, 111, 111);
+    padding-left: 10px;
 }
 
 #foot {

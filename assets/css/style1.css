@@ -1,5 +1,7 @@
 body {
-    background: rgb(223, 217, 210);
+    background-image: url(../../images/chessboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #name {
@@ -36,7 +38,6 @@ button {
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     border-bottom-width: 5px;
-   
 }
 
 #main {
@@ -45,10 +46,12 @@ button {
     border-style: solid;
     border-color: lightgray;
     border-radius: 20px;
+    background: rgb(223, 217, 210);
 }
 
 img {
     float: left;
+    border-radius: 15px;
 }
 
 #text {
