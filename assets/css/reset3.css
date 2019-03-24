@@ -27,23 +27,23 @@
 
     #name {
         position: relative;
-        left: 50px;
+        left: 60px;
     }
 
     .form-inline {
         position: relative;
-        left: 70px;
+        left: 80px;
     }
 
     #main {
-        height: 558px;
+        height: 450px;
         position: relative;
         bottom: 30px;
     }
 
     #text {
         position: relative;
-        bottom: 60px;
+        bottom: 25px;
     }
 
     #foot {
@@ -53,37 +53,16 @@
     }
 }
 
-@media screen and (max-width: 412px) {
-
-    #main {
-        height: 625px;
-        position: relative;
-        bottom: 48px;
-    }
-}
-
 @media screen and (max-width: 376px) {
 
     #name {
         position: relative;
-        left: 45px;
+        left: 43px;
     }
 
     .form-inline {
         position: relative;
         left: 65px;
-    }
-
-    #main {
-        height: 710px;
-        position: relative;
-        bottom: 48px;
-    }
-
-    #foot {
-        position: relative;
-        top: 0px;
-        padding-top: 20px;
     }
 }
 
@@ -100,19 +79,13 @@
     }
 
     #main {
-            height: 710px;
+            height: 400px;
             position: relative;
             bottom: 48px;
     }
-
-    #foot {
-        position: relative;
-        top: 0px;
-        padding-top: 20px;
-    }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
 
     #name {
         position: relative;
@@ -125,12 +98,6 @@
     }
 
     #main {
-        height: 1015px;
-        position: relative;
-        bottom: 48px;
-    }
-
-    #foot {
-        padding-top: 20px;
+        height: 400px;
     }
 }
