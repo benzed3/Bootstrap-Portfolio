@@ -1,7 +1,5 @@
 body {
     background-image: url(../../images/chessboard.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 #name {
