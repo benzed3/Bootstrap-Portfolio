@@ -19,7 +19,11 @@
 
     .form-inline {
         position: relative;
-        right: 5px;
+        right: 40px;
+    }
+    #main {
+        position: relative;
+        right: 20px;
     }
 }
 
