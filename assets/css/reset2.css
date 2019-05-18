@@ -23,7 +23,7 @@
     }
     #main {
         position: relative;
-        right: 20px;
+        left: 4px;
     }
 }
 
@@ -43,6 +43,7 @@
         height: 450px;
         position: relative;
         bottom: 30px;
+        left: 1px;
     }
 
     #text {
@@ -54,6 +55,35 @@
         position: fixed;
         bottom: 0;
         padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .navbar {
+        position: relative;
+        left: 2px;
+    }
+
+    #name {
+        position: relative;
+        left: 45px;
+    }
+
+    .form-inline {
+        position: relative;
+        left: 65px;
+    }
+
+    #main {
+        height: 500px;
+        position: relative;
+        bottom: 30px;
+        left: 1px;
+    }
+
+    #foot {
+        
     }
 }
 
@@ -70,9 +100,9 @@
     }
 
     #main {
-            height: 400px;
+            height: 430px;
             position: relative;
-            bottom: 10px;
+            bottom:25px;
     }
 }
 
