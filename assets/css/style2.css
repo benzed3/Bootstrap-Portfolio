@@ -1,5 +1,6 @@
 body {
-    background-image: url(../../images/chessboard.png);
+    background-image: url(../../images/mtn.jpg);
+    background-size: cover;
 }
 
 #name {
