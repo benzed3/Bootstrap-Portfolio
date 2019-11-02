@@ -31,6 +31,7 @@ button {
 
 .navbar {
     padding: 0;
+    opacity: .9;
 }
 
 #navbar {
