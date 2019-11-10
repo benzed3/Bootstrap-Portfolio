@@ -47,6 +47,7 @@ button {
     border-color: lightgray;
     border-radius: 20px;
     background: rgb(223, 217, 210);
+    box-shadow: 20px 20px;
 }
 
 #title {
