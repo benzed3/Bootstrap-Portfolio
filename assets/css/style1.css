@@ -1,6 +1,5 @@
 body {
-    background-image: url(../../images/mtn.jpg);
-    background-size: cover;
+    background: gainsboro;
 }
 
 #name {
